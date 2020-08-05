@@ -1,5 +1,7 @@
 package algorithm;
 
+import java.util.Scanner;
+
 /**
  * @author wj
  	1. 
@@ -7,22 +9,21 @@ package algorithm;
 	90 ~ 100점은 A, 80 ~ 89점은 B, 70 ~ 79점은 C, 
 	60 ~ 69점은 D, 나머지 점수는 F를 출력하는 프로그램을 작성하시오.
 	
-	2.
-	안녕하세요 를 5번 출력 하자
-	결과)
-	안녕하세요
-	안녕하세요
-	안녕하세요
-	안녕하세요
-	안녕하세요
  */
 
 public class Unit01 {
 	public static void main(String[] args) {
-		System.out.println("문제 1)");
 		
-		int score = (int)(Math.random()*100);
-		System.out.println("점수: "+score);
+		Scanner sc = new Scanner(System.in);
+		
+		
+		System.out.print("점수는?");
+		int score = sc.nextInt();
+		
+		sc.close();
+		// 랜덤으로 처리
+		//int score = (int)(Math.random()*100);
+		//System.out.println("점수: "+score);
 		
 		if(score >= 90) {
 			System.out.println("A");
@@ -36,13 +37,5 @@ public class Unit01 {
 			System.out.println("F");
 		}
 		
-		
-		System.out.println("----------------------");
-		
-		System.out.println("문제 2)");
-		
-		for(int i=0; i<5; i++) {
-			System.out.println("안녕하세요");
-		}
 	}
 }
