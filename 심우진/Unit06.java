@@ -7,7 +7,7 @@ package algorithm;
  */
 public class Unit06 {
 	public static void main(String[] args) {
-		
+		//switch문 사용
 		for(int i=1; i<=9; i++) {
 			switch(i) {
 			case 1:
@@ -43,7 +43,16 @@ public class Unit06 {
 			}
 		}
 		
-		
+		// if문 사용
+		for(int i=1; i<=9; i++) {
+			if(i==6 || i==7) {
+				continue;
+			}else {
+				for(int j=1; j<=9; j++) {
+					System.out.println(i+" + "+j+" = "+(i*j));
+				}
+			}
+		}
 		
 	}
 }
