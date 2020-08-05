@@ -11,7 +11,7 @@ public class Test06 {
 			if(i != 6 && i != 7) {
 				
 				for(int j = 1; j <= 9; j++) {
-					System.out.println(i + " * " + j + " = " + i*j);
+					System.out.println(i + " * " + j + " = " + i * j);
 					
 				}
 			}
@@ -27,7 +27,7 @@ public class Test06 {
 			} else {
 				
 				for(int j = 1; j <= 9; j++) {
-					System.out.println(i + " * " + j + " = " + i*j);
+					System.out.println(i + " * " + j + " = " + i * j);
 					
 				}
 			}
