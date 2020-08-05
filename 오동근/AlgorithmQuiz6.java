@@ -7,6 +7,7 @@ package com.dkpoint.algorithm.quiz;
 public class AlgorithmQuiz6 {
 
 	public static void main(String[] args) {
+		
 		int [] table_range = {2,3,4,5,6,7,8,9};
 		int [] number_range = {1,2,3,4,5,6,7,8,9};
 		int result = 0;
