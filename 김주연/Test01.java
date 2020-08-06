@@ -33,6 +33,8 @@ public class Test01 {
 				//조건문-[2]
 		
 			//(2)입력값 받기
+				
+			Scanner sc = new Scanner(System.in);
 			
 			//변수 선언
 			int score2;
