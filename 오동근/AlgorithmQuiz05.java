@@ -5,7 +5,7 @@ package com.dkpoint.algorithm.quiz;
 구구단을 출력해보자
 */
 
-public class AlgorithmQuiz5 {
+public class AlgorithmQuiz05 {
 	
 	public static void main(String[] args) {
 		

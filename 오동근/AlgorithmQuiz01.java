@@ -1,7 +1,5 @@
 package com.dkpoint.algorithm.quiz;
 
-import java.util.Scanner;
-
 /*
 1.
 임의의 시험 점수를 입력(혹은 랜덤으로)받아 
@@ -9,7 +7,7 @@ import java.util.Scanner;
 60 ~ 69점은 D, 나머지 점수는 F를 출력하는 프로그램을 작성하시오.
 */
 
-public class AlgorithmQuiz1 {
+public class AlgorithmQuiz01 {
 	
 	public static void main(String[] args) {
 		

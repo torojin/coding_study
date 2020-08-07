@@ -5,7 +5,7 @@ package com.dkpoint.algorithm.quiz;
 구구단 7단을 출력해보자
 */
 
-public class AlgorithmQuiz4 {
+public class AlgorithmQuiz04 {
 	
 	public static void main(String[] args) {
 		
