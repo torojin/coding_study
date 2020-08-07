@@ -2,7 +2,7 @@ package algorithm;
 
 /**
  * 
- * @author woojinshim
+ * @author wj
  *10.
 	for 문을 이용해서 
 	1부터 1000까지의 합을 구하는 코드를 작성하되
