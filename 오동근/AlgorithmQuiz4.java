@@ -3,7 +3,7 @@ package com.dkpoint.algorithm.quiz;
 /*
 4.
 구구단 7단을 출력해보자
-*/
+ */
 
 public class AlgorithmQuiz4 {
 	
