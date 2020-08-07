@@ -4,7 +4,7 @@ package com.dkpoint.algorithm.quiz;
 3.
 for 문을 이용해서 
 1부터 76까지의 합을 구하는 코드를 작성하자.
-*/
+ */
 
 public class AlgorithmQuiz3 {
 	
