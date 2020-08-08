@@ -9,9 +9,9 @@ package com.dkpoint.algorithm.quiz;
 안녕하세요
 안녕하세요
 안녕하세요
- */
+*/
 
-public class AlgorithmQuiz2 {
+public class AlgorithmQuiz02 {
 	
 	public static void main(String[] args) {
 		

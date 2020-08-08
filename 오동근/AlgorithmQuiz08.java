@@ -6,9 +6,9 @@ import java.util.List;
 /*
 8.
 2~100사이의 소수를 구해보자
- */
+*/
 
-public class AlgorithmQuiz8 {
+public class AlgorithmQuiz08 {
 
 	public static void main(String [] args) {
 		

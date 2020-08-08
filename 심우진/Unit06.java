@@ -1,7 +1,7 @@
 package algorithm;
 /**
  * 
- * @author woojinshim
+ * @author wj
  * 6.구구단을 출력을 하되 7단과 6단을 제외하고 출력하자.
  *
  */
