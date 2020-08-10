@@ -3,9 +3,9 @@ package com.dkpoint.algorithm.quiz;
 /*
 7.
 863은 소수 인가?
- */
+*/
 
-public class AlgorithmQuiz7 {
+public class AlgorithmQuiz07 {
 	
 	public static void main(String [] args) {
 		
