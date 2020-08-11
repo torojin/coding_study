@@ -11,15 +11,13 @@ public class AlgorithmQuiz13 {
 		
 		int number;
 		int number_range = 10;
+		int sum = 0;
 		int result = 0;
 		
 		for(number = 1; number <= number_range; number++) {
 			
-			for(int sum = 1; sum <= number; sum++) {
-			
+				sum += number;
 				result += sum;
-				
-			}
 			
 		}
 		
