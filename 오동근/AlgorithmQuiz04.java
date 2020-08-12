@@ -6,18 +6,18 @@ package com.dkpoint.algorithm.quiz;
 */
 
 public class AlgorithmQuiz04 {
-	
+
 	public static void main(String[] args) {
-		
+
 		int table = 7;
-		int [] number_range = {1,2,3,4,5,6,7,8,9};
+		int[] number_range = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 		int result = 0;
-		
-		for(int number : number_range) {
+
+		for (int number : number_range) {
 			result = table * number;
-			System.out.println(table+" x "+number+" = "+result);
+			System.out.println(table + " x " + number + " = " + result);
 		}
-		
+
 	}
-	
+
 }

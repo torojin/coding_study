@@ -8,21 +8,21 @@ package com.dkpoint.algorithm.quiz;
 public class AlgorithmQuiz13 {
 
 	public static void main(String[] args) {
-		
+
 		int number;
 		int number_range = 10;
 		int sum = 0;
 		int result = 0;
-		
-		for(number = 1; number <= number_range; number++) {
-			
-				sum += number;
-				result += sum;
-			
+
+		for (number = 1; number <= number_range; number++) {
+
+			sum += number;
+			result += sum;
+
 		}
-		
+
 		System.out.println(result);
-		
+
 	}
-	
+
 }
