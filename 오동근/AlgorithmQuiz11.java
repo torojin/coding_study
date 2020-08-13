@@ -9,27 +9,27 @@ import java.util.List;
 */
 
 public class AlgorithmQuiz11 {
-	
+
 	public static void main(String[] args) {
-	
+
 		int number;
 		int number_range = 100;
 		List<Integer> number_list = new ArrayList<Integer>();
 		int index;
-		
-		for(number = 1; number <= number_range; number++) {
-			
+
+		for (number = 1; number <= number_range; number++) {
+
 			number_list.add(number);
-			System.out.println(number+" ");
-			
+			System.out.println(number + " ");
+
 		}
-		
-		for(index = number_range - 1; index >= 0; index--) {
-			
+
+		for (index = number_range - 1; index >= 0; index--) {
+
 			System.out.println(number_list.get(index));
-			
+
 		}
-		
+
 	}
-	
+
 }

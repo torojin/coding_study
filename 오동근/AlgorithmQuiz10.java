@@ -8,23 +8,23 @@ for 문을 이용해서
 */
 
 public class AlgorithmQuiz10 {
-	
-	public static void main(String [] args) {
-		
+
+	public static void main(String[] args) {
+
 		int number;
 		int number_range = 1000;
 		int result = 0;
-		
-		for(number = 1; number <= number_range; number++) {
-			
-			if(number % 3 == 0) {
+
+		for (number = 1; number <= number_range; number++) {
+
+			if (number % 3 == 0) {
 				result += number;
 			}
-			
+
 		}
-		
+
 		System.out.println(result);
-		
+
 	}
-	
+
 }

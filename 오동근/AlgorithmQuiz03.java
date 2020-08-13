@@ -7,17 +7,17 @@ for 문을 이용해서
 */
 
 public class AlgorithmQuiz03 {
-	
+
 	public static void main(String[] args) {
-		
+
 		int number;
 		int end = 76;
 		int sum = 0;
-		
-		for(number = 1; number <= end; number++) {
+
+		for (number = 1; number <= end; number++) {
 			sum += number;
 		}
 		System.out.println(sum);
 	}
-	
+
 }

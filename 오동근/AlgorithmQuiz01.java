@@ -8,23 +8,23 @@ package com.dkpoint.algorithm.quiz;
 */
 
 public class AlgorithmQuiz01 {
-	
+
 	public static void main(String[] args) {
-		
+
 		System.out.println("문제-1");
-		
+
 		/*
 		 * Scanner scanner = new Scanner(System.in);
 		 * System.out.println("시험 점수를 입력해주세요."); int test_score = scanner.nextInt();
 		 */
-		
-		int test_score = (int) (Math.random()*101);
-	    System.out.println("랜덤한 점수를 입력받았습니다."); 
-	    System.out.println(test_score);
-		
+
+		int test_score = (int) (Math.random() * 101);
+		System.out.println("랜덤한 점수를 입력받았습니다.");
+		System.out.println(test_score);
+
 		int grade_cut = test_score / 10;
-		
-		switch(grade_cut) {
+
+		switch (grade_cut) {
 		case 10:
 		case 9:
 			System.out.println("A");
@@ -46,9 +46,9 @@ public class AlgorithmQuiz01 {
 		case 0:
 			System.out.println("F");
 			break;
-			
+
 		}
-		
+
 	}
-	
+
 }
