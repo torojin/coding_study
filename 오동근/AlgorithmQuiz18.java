@@ -13,16 +13,20 @@ public class AlgorithmQuiz18 {
 		int result = 0;
 		int result_goal = 1000;
 
-		while (result < result_goal) {
-			
-			number++;
-			
-			if(number %2 == 1) {
+		while (true) {
+
+			if (number % 2 == 1) {
 				result += number;
-			} else if(number %3 == 0 && number %2 == 0) {
+			} else if (number % 3 == 0 && number % 2 == 0) {
 				result += number;
 			}
-			
+
+			if (result >= result_goal) {
+				break;
+			}
+
+			number++;
+
 		}
 
 		System.out.printf("합이 %d를 더했을 때 %d을 넘어서고, 넘어선 값은 %d이다", number, result_goal, result);

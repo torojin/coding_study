@@ -31,7 +31,7 @@ public class AlgorithmQuiz20 {
 			while (number > 0) {
 
 				int calc = number % 10;
-				
+
 				if (calc != 0 && calc % 3 == 0) {
 					count_clap += 1;
 				}
@@ -40,7 +40,14 @@ public class AlgorithmQuiz20 {
 
 			}
 
-			System.out.printf("%d 박수 %d번\n", index, count_clap);
+			if (count_clap > 0) {
+				if (count_clap == 1) {
+					System.out.printf("%d 박수 한번\n", index);
+				}
+				if (count_clap == 2) {
+					System.out.printf("%d 박수 두번\n", index);
+				}
+			}
 
 		}
 
