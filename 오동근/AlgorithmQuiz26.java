@@ -15,7 +15,9 @@ public class AlgorithmQuiz26 {
 		int string_length = string_vlaue.length();
 
 		for (int index = string_length - 1; index >= 0; index--) {
+
 			System.out.print(string_vlaue.charAt(index));
+
 		}
 
 	}
