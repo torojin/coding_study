@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 public class Day14_27 {
 
-	// 방법 1 - for문
+	/* 방법 1 - for문
 	public int factorial(int num) {
 
 		int result = 1;
@@ -24,8 +24,18 @@ public class Day14_27 {
 		return result;
 
 	}
+	*/
 	
-	// 방법2 - 재귀함수: Day15_29에
+	// 방법2 - 재귀함수
+	public int factorial(int num) {
+
+		if(num <=1) {
+			return 1;
+		} else {
+			return num*(factorial(num-1));
+		}
+
+	}
 
 	public static void main(String[] args) {
 
