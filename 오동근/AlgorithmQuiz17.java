@@ -27,16 +27,16 @@ public class AlgorithmQuiz17 {
 				result = first_variable + second_variable;
 				first_variable = second_variable;
 				second_variable = result;
-				System.out.print(result+" ");
+				System.out.print(result + " ");
 
 			} else {
-				
-				System.out.print(first_variable+" ");
+
+				System.out.print(first_variable + " ");
 
 			}
 
 		}
-		
+
 		System.out.printf("\n%d번째 수는 %d이다", variable_range, result);
 
 	}
