@@ -15,14 +15,15 @@ public class AlgorithmQuiz02 {
 
 	public static void main(String[] args) {
 
-		System.out.println("문제-2");
-
 		String message = "안녕하세요";
 
 		int count = 0;
+
 		while (count < 5) {
+
 			count++;
 			System.out.println(message);
+
 		}
 
 	}

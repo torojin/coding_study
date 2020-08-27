@@ -35,4 +35,5 @@ public class AlgorithmQuiz21 {
 		System.out.println(result + "번");
 
 	}
+	
 }
