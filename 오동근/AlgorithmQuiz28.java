@@ -32,14 +32,14 @@ class CheckAnagram {
 	String string_one;
 	String string_two;
 
-	public void setCheckAnagram(String string_one, String string_two) {
+	void setCheckAnagram(String string_one, String string_two) {
 
 		this.string_one = string_one;
 		this.string_two = string_two;
 
 	}
 
-	public void getResult() {
+	void getResult() {
 
 		Boolean result;
 
