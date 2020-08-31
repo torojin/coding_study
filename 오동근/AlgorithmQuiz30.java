@@ -29,19 +29,24 @@ public class AlgorithmQuiz30 {
 
 			random_number = (int) ((Math.random() * range_end) + range_start);
 
-			for (int number : number_array) {
+			if (index != repeat_count) {
 
-				if (random_number == number) {
+				System.out.print(random_number + ", ");
 
-					if (isBoolean == true) {
+			} else {
 
-						System.out.print(", " + random_number);
+				System.out.print(random_number);
+
+			}
+
+			if (isBoolean != true) {
+
+				for (int number : number_array) {
+
+					if (random_number == number) {
+
 						isBoolean = true;
-
-					} else {
-
-						System.out.print(random_number);
-						isBoolean = true;
+						break;
 
 					}
 
